@@ -5,11 +5,11 @@
 #include <RadioLib.h>
 
 // === USER CONFIG ===
-const char* ssid = "mantiz010";
-const char* password = "DavidCross010";
-const char* mqtt_server = "172.168.1.8";
-const char* mqtt_user = "mantiz010";
-const char* mqtt_password = "DavidCross010";
+const char* ssid = "mynet";  wifi ssid 
+const char* password = "home33";  wifi passwaord
+const char* mqtt_server = "192.168.99."; // mqtt server adress
+const char* mqtt_user = "arduino"; // mqtt password
+const char* mqtt_password = "aasdfg"; // mqtt user 
 
 // === MQTT TOPICS ===
 const String temperatureTopic    = "bresser/sensor/temperature";
