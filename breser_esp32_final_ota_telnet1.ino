@@ -5,8 +5,8 @@
 #include <RadioLib.h>
 
 // === USER CONFIG ===
-const char* ssid = "mynet";  wifi ssid 
-const char* password = "home33";  wifi passwaord
+const char* ssid = "mynet"; // wifi ssid 
+const char* password = "home33"; // wifi passwaord
 const char* mqtt_server = "192.168.99."; // mqtt server adress
 const char* mqtt_user = "arduino"; // mqtt password
 const char* mqtt_password = "aasdfg"; // mqtt user 
